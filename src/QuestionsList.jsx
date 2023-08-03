@@ -89,7 +89,7 @@ const QuestionsList = [
         question:"Wie finden Sie die Kneipen in der Altstadt?",
         answersList: [
             {answer:"Sie liegen außerhalb des Zentrums und sind langweilig.", isCorrect:false},
-            {answer:"Da kann man immer viele Touristen finden.", isCorrect:false},
+            {answer:"Die Touristen gehen gern dahin.", isCorrect:false},
             {answer:"Dort gibt es immer viele interessante Leute.", isCorrect:true},
         ]
     },{
@@ -218,4 +218,4 @@ const QuestionsList = [
 
 ].sort(() => Math.random() - 0.5);
 
-export default QuestionsList;
+export default QuestionsList
